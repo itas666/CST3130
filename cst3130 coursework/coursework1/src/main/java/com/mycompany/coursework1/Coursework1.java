@@ -10,8 +10,9 @@ package com.mycompany.coursework1;
  * @author Code
  */
 public class Coursework1 {
-
+    
+    static boolean debug = false;
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        system.out.print("Hello World");
     }
 }

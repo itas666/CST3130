@@ -9,6 +9,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
-        <exec.mainClass>com.cst3130.labs.lecture4.Race</exec.mainClass>
+        <exec.mainClass>com.mycompany.coursework1.Coursework1</exec.mainClass>
     </properties>
+    <dependency>
+    <!-- JSOUP -->
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>1.14.2</version>
+    </dependency>
 </project>
