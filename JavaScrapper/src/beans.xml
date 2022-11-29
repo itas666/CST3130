@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<!-- foxton scraper -->
+   <bean id = "foxtonScraper" class = "ia666.middlesex.javascrapper.FoxtonScraper" >
+      <property name = "url" value = "https://www.foxtons.co.uk/properties-for-sale-in-london" />
+      <property name = "url2" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=2" />
+      <property name = "url3" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=3" />
+      <property name = "url4" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=4" />
+      <property name = "url5" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=5" />
+      <property name = "url6" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=6" />
+      <property name = "url7" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=7" />
+      <property name = "url8" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=8" />
+      <property name = "url9" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=9" />
+      <property name = "url10" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=10" />
+      <property name = "url11" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=11" />
+      <property name = "url12" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=12" />
+      <property name = "url13" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=13" />
+      <property name = "url14" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=14" />
+      <property name = "url15" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=15" />
+      <property name = "url16" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=16" />
+      <property name = "url17" value = "https://www.foxtons.co.uk/properties-for-sale-in-london?page=17" />
+<!-- Lettings London scraper -->
+
+
+
+<!-- View scraper -->
+<!-- Winkworth scraper -->
+<!-- Portico scraper -->
+   
+</beans>
+
